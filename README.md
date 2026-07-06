@@ -34,6 +34,10 @@
 ├── agents/
 │   └── openai.yaml
 └── references/
+    ├── calendars/
+    │   └── 2026H2.md
+    ├── plans/
+    │   └── 2026H2.md
     ├── templates/
     │   └── weekly-task-template.md
     └── weeks/
@@ -44,10 +48,19 @@
 
 - `2026H2W1`：用 Codex 安全整理一个混乱文件夹
 
+## 当前已收录规划
+
+- `2026H2`：2026 年下半年 AI 共学群任务规划
+
+## 当前已收录日历
+
+- `2026H2`：2026 年下半年周次日历，用于回答“本周打卡任务是什么”
+
 ## 文件说明
 
 - `SKILL.md`：稳定发布流程和使用规则。
+- `references/calendars/`：日期到周次的匹配表。
+- `references/plans/`：半年度或阶段性任务规划。
 - `references/weeks/`：每周具体任务内容。
 - `references/templates/`：新增周任务时使用的模板。
 - `agents/openai.yaml`：Codex Skill 的界面元数据。
-
